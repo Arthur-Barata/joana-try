@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height:3.5rem;
+    align-items: center;
+    background-image: url(./assets/back2.jpg);
+   
+  }
+  .ul{
+    margin-bottom: 0;
+    width: 75%;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ul li{
+    
+    font-size: 90%;
+    font-weight: 600;
+    color: white;
+    list-style: none;
+    background-color: rgba(23,61,122,255) ;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+   
+    
+  
+  }
+  .span_li{
+    width: 2vh;
+    background-color: white;
+    
+    
+  }
+  #logo{
+    margin-left: 1rem;
+    align-self: center;
+    width:20%;
+    height:100%;
+    background-image: url(./assets/num_nome_branco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+  }

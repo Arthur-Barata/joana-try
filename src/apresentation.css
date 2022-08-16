@@ -1,0 +1,42 @@
+.apresentation{
+    margin-top: 0;
+    text-align: center;
+    width:100%;
+    color: rgba(23,61,122,255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/pattern_opaco.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  .img_apresentation{
+    width:50%;
+    align-self: center;
+  }
+  #img_apresentation{
+    width:80%;
+    border-radius: 1rem;
+  }
+  
+  .text1{
+    width:80%;
+  }
+  
+  .p_apresentation{
+    margin-left: 0.5rem;
+    text-align: left;
+    font-size: 110%;
+    color: rgb(85, 85, 85);
+  }
+  
+  .h2_aprensentation{
+    margin-top:1.5rem;
+    text-align: left;
+    color: rgba(23,61,122,255);
+  }
