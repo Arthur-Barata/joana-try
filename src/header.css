@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    height:3.5rem;
+    height:9vh;
     align-items: center;
     background-image: url(/public/assets/back2.jpg);
    
@@ -15,8 +15,9 @@ header{
     justify-content: space-evenly;
   }
   .ul li{
+    text-align: center;
     
-    font-size: 90%;
+    font-size: 0.8rem;
     font-weight: 600;
     color: white;
     list-style: none;
@@ -27,12 +28,7 @@ header{
     
   
   }
-  .span_li{
-    width: 2vh;
-    background-color: white;
-    
-    
-  }
+  
   #logo{
     margin-left: 1rem;
     align-self: center;
