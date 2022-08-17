@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image:url(../public/assets/back2.jpg);
+    background-color: rgba(23,61,122,255);
   }
   .projects_div{
     display: flex;
@@ -19,7 +19,7 @@
     color: rgba(23,61,122,255);
   }
   #section_three{
-    color: rgba(23,61,122,255);
+    color: white;
     text-align: left;
   }
   
@@ -28,8 +28,9 @@
     display: flex;
   }
   .projects p{
-    color: rgba(23,61,122,255);
+    color: white;
     text-align:left;
     text-indent: 1rem;
+    font-size: 110%;
   }
  

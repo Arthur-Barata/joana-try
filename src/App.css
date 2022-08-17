@@ -20,10 +20,6 @@ body{
  
 }
 
-
-
-
-
 .carousel_videos{
   width:100%;
 }
@@ -36,7 +32,34 @@ video{
 }
 
 
+
+
+
+.input_title{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  
+}
 .input_section h2{
+  margin-top: 0;
   color:rgba(23,61,122,255);
+  margin-bottom: 0;
+
+}
+.input_title h4{
+  margin-top: 0;
+  color: rgb(120,120,120);
+
+}
+.input_title p{
+  text-align: left;
+  color: rgb(80,80,80);
+  font-size: 120%;
+}
+.input_section{
+  display: flex;
+  background-image: url(../public/assets/back2.jpg);
 }
 
