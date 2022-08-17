@@ -1,4 +1,5 @@
 .projects{
+    
     margin-top: 0;
     text-align: center;
     width:100%;
@@ -8,17 +9,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgba(23,61,122,255);
+    background-image:url(../public/assets/back2.jpg);
   }
   .projects_div{
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    
+    color: rgba(23,61,122,255);
   }
   #section_three{
-    color:white;
+    color: rgba(23,61,122,255);
     text-align: left;
   }
   
@@ -26,4 +27,9 @@
     width:80%;
     display: flex;
   }
-  
+  .projects p{
+    color: rgba(23,61,122,255);
+    text-align:left;
+    text-indent: 1rem;
+  }
+ 

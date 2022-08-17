@@ -3,10 +3,11 @@ header{
     justify-content: space-between;
     height:3.5rem;
     align-items: center;
-    background-image: url(./assets/back2.jpg);
+    background-image: url(/public/assets/back2.jpg);
    
   }
   .ul{
+    margin-top: 0;
     margin-bottom: 0;
     width: 75%;
     padding-left: 0;
@@ -37,7 +38,7 @@ header{
     align-self: center;
     width:20%;
     height:100%;
-    background-image: url(./assets/num_nome_branco.png);
+    background-image: url(/public/assets/num_nome_azul.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;

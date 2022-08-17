@@ -7,7 +7,7 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    background-image: url(./assets/pattern_opaco.jpeg);
+    background-image: url(../public/assets/pattern_opaco.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,13 +30,27 @@
   
   .p_apresentation{
     margin-left: 0.5rem;
-    text-align: left;
+    text-align:left;
     font-size: 110%;
     color: rgb(85, 85, 85);
   }
   
   .h2_aprensentation{
+    font-weight: 600;
     margin-top:1.5rem;
-    text-align: left;
+    text-align: center;
     color: rgba(23,61,122,255);
+  }
+
+  .apresentation_title{
+    display: flex;
+    width: 100%;
+  }
+  .apresentation_title span{
+    width: 20%;
+    background-image: url(../public/assets/pata_paleta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  
   }

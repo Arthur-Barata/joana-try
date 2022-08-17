@@ -8,7 +8,7 @@ function App() {
 
   function FirstImg(){
     return(
-      <div className='img_firstImg'><img id="img_firstImg" alt= "imagem de campanha" src="./assets/capa.jpg"></img></div>
+      <div className='img_firstImg'><img id="img_firstImg" alt= "imagem de campanha" src="../assets/joana_micCapa.jpeg"></img></div>
       )
   }
 
@@ -34,7 +34,7 @@ function App() {
   function CarouselImage(){
     return(
       <div className="img_carousel" data-aos='fade-up'>
-             <img id="img_apresentation" alt="deputada Joana Darc"src="./assets/joana_plen.JPG"></img>
+             <img id="img_apresentation" alt="deputada Joana Darc"src="../assets/joana_plen.JPG"></img>
       </div>
     )
 
@@ -43,7 +43,13 @@ function App() {
   return(
   <div className="apresentation">
         <section className="text1">
-          <h2 className='h2_aprensentation'>Conheça a Joana Darc protetora</h2>
+          <div className="apresentation_title">
+            <span data-aos="zoom-out" data-aos-delay="50"
+    data-aos-duration="1000"></span>
+            <h2 className='h2_aprensentation'>Conheça a Joana Darc protetora.</h2>
+            <span data-aos="zoom-out" data-aos-delay="50"
+    data-aos-duration="1000"></span>
+          </div>
           <p className='p_apresentation'>A caminhada até aqui foi longa, mas não caminhei sozinha. Sempre tive ao meu lado, pessoas que acreditam no meu trabalho e sabem que juntos podemos fazer a diferença. 
             Por isso eu conto com o seu apoio.</p>
           <CarouselImage></CarouselImage>
@@ -74,20 +80,21 @@ function App() {
              written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance . 
              The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
              comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-              below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero ar
-            e also reproduced in their exact original form, accompanied by English versions from the 1914 translation by 
-            H. Rackham.</p>
+              </p>
           <div className='video_um' data-aos='fade-right'>
-              <video controls src='meu-app\src\assets\joana_video.mp4'></video>      
+              <video controls src='../assets/joana_video.mp4'></video>      
           </div> 
-          <img id="teste" alt="teste" src='./src/logo.svg'></img>
-
           <div className='carousel_videos'></div>
         </div>
+    </section>
+    <section className='input_section'>
 
+      <h2>Abraçe a causa!</h2>
+      <h4>Faça parte do nosso trabalho.</h4>
     </section>
     
-    </div>
+    
+  </div>
 
 
 
