@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    height:9vh;
+    height:8vh;
     align-items: center;
     background-image: url(/public/assets/back2.jpg);
    
