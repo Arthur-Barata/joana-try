@@ -3,9 +3,13 @@
 @import 'apresentation.css';
 @import 'projects.css';
 
+#root{
+  display:none;
+}
 
 body{
   font-family: 'Roboto', sans-serif;
+ 
 }
 
 .img_firstImg{
