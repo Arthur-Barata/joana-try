@@ -12,6 +12,7 @@
     background-color: rgba(23,61,122,255);
   }
   .projects_div{
+    width:90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,14 +24,45 @@
     text-align: left;
   }
   
-  .projects_div{
-    width:80%;
-    display: flex;
-  }
   .projects p{
     color: white;
     text-align:left;
     text-indent: 1rem;
     font-size: 110%;
   }
+  .projects h3{
+    align-self: flex-start;
+    margin-top: 0;
+    color: white;
+  }
+  .cards{
+  width: 100%;
+}
+  .cards_ul{
+    list-style: none;
+    padding-left: 0;
+  }
+
+.cards_li{
+  display: flex;
+  align-content: center;
+  margin-bottom: 2rem;
+  align-items: center;
+  color: rgb(255,255,255);
+  font-weight: 500;
+  font-size: 110%;
+  background-color:#FDC500;
+  padding: 0.8rem;
+  border-radius:0.3rem;
+}
+.cards_icon{
+  height:2rem;
+  width:2rem;
+  
+  display:inline-block;
+}
+.cards_text{
+  margin-left: 0.5rem;
+  text-align: center;
+}
  

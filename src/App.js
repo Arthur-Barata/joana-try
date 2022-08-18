@@ -34,7 +34,7 @@ function App() {
   function CarouselImage(){
     return(
       <div className="img_carousel" data-aos='fade-up'>
-             <img id="img_apresentation" alt="deputada Joana Darc"src="../assets/joana_plen.JPG"></img>
+             <img id="img_apresentation" alt="deputada Joana Darc"src="../assets/joana_miau.png"></img>
       </div>
     )
 
@@ -50,13 +50,15 @@ function App() {
             <span data-aos="zoom-out" data-aos-delay="50"
     data-aos-duration="1000"></span>
           </div>
-          <p className='p_apresentation'>A caminhada até aqui foi longa, mas não caminhei sozinha. Sempre tive ao meu lado, pessoas que acreditam no meu trabalho e sabem que juntos podemos fazer a diferença. 
-            Por isso eu conto com o seu apoio.</p>
+          <p className='p_apresentation'></p>
           <CarouselImage></CarouselImage>
-          <p className='p_apresentation'> Abrace a esperança você também!
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-             Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
-              </p>
+          <p className='p_apresentation'>Eu sou a Joana Darc Cordeiro. Sou protetora de animais desde que consigo me lembrar e foi essa causa tão importante que me trouxe aos caminhos da política.
+
+Fundei a ONG PATA – Proteção, Adoção e Tratamento Animal em 2011 e percebi que os avanços para a Causa estavam diretamente ligados a políticas públicas.
+
+Se eu já tinha muito claro que essa era a missão da minha vida, precisava buscar formas efetivas de proteção aos animais. Entrei de corpo e alma nessa tarefa e fui a Vereadora mais jovem eleita na Câmara Municipal de Manaus em 2016 e, em 2018, fui a Deputada Estadual mais votada na capital do Amazonas.
+
+Os animais me trouxeram para a política e o cuidado com as pessoas, sem distinção, me motiva todos os dias a dar voz e representatividade a quem precisa.</p>
         </section>  
       </div>
 
@@ -74,13 +76,26 @@ function App() {
     <section className='projects' data-aos='fade-up' data-aos-delay="50"
     data-aos-duration="1000">
         <div className='projects_div'>
-          <h2 id="section_three">Ela prometeu ela cumpriu!</h2>
-           <p className='p_projects'>De Finibus Bonorum et Malorum" The Extremes of Good and Evil by Cicero.Por isso eu conto com o seu apoio.
-           Abrace a esperança você também!</p>
-          <div className='video_um' data-aos='fade-right'>
-              <video controls src='../assets/joana_video.mp4'></video>      
-          </div> 
-          <div className='carousel_videos'></div>
+          <h2 id="section_three">É trabalho da Joana!!</h2>
+          <h3 >Projetos de Lei:</h3>
+           <div className='cards'>
+              <ul className='cards_ul'>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <div className='cards_text'>Lei em favor dos animais silvestresaa aaa aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa</div>
+                </li>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <div className='cards_text'>Lei em favor dos idosos com mobilidade reduzida apenas pela manha</div>
+                </li>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <div className='cards_text'>Lei em favor dos homens com menos de 1,70 de altura</div>
+                </li>
+              </ul>
+           
+           </div>
+           
         </div>
     </section>
 
