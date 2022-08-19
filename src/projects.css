@@ -44,16 +44,19 @@
   }
 
 .cards_li{
+ 
   display: flex;
+  
   align-content: center;
   margin-bottom: 2rem;
   align-items: center;
   color: rgb(255,255,255);
   font-weight: 500;
   font-size: 110%;
-  background-color:#FDC500;
+ background-color:#FDC500;
   padding: 0.8rem;
   border-radius:0.3rem;
+  
 }
 .cards_icon{
   height:2rem;
@@ -64,5 +67,16 @@
 .cards_text{
   margin-left: 0.5rem;
   text-align: center;
+}
+.cards_btn{
+  width:30%;
+  background-color:#FDC500;
+   border-radius:0.3rem;
+   color: rgb(255,255,255);
+  font-weight: 500;
+  font-size: 110%;
+  padding: 0.8rem;
+  border-style: none;
+  margin-bottom: 2rem;
 }
  

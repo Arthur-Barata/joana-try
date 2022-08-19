@@ -1,37 +1,18 @@
 import React from 'react'
+import Header from './Header.js';
+import FirstImg from './FirstImg.js';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init()
 
 function App() {
-  
-
-  function FirstImg(){
-    return(
-      <div className='img_firstImg'><img id="img_firstImg" alt= "imagem de campanha" src="../assets/joana_micCapa.jpeg"></img></div>
-      )
-  }
 
   function manda(event){
     
     console.log(event.target.value)
   }
-  function Header(){
-    return(
-      <nav>
-        <header> 
-          <span id="logo"></span>
-        <ul className="header ul">
-          <li><span className='span_li'></span>SOBRE MIM</li>
-          <li><span className='span_li'></span>PROJETOS</li>
-          <li><span className='span_li'></span>PARTICIPE</li>
-
-        </ul>
-        </header>
-      </nav>
-    )
-  }
+  
   function CarouselImage(){
     return(
       <div className="img_carousel" data-aos='fade-up'>
@@ -82,19 +63,34 @@ Os animais me trouxeram para a pol√≠tica e o cuidado com as pessoas, sem distin√
            <div className='cards'>
               <ul className='cards_ul'>
                 <li className='cards_li'>
-                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <img className='cards_icon' src='../assets/pata.png'></img>
                   <div className='cards_text'>Lei em favor dos animais silvestresaa aaa aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa</div>
                 </li>
                 <li className='cards_li'>
-                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <img className='cards_icon' src='../assets/lgbt.png'></img>
                   <div className='cards_text'>Lei em favor dos idosos com mobilidade reduzida apenas pela manha</div>
                 </li>
                 <li className='cards_li'>
-                  <img className='cards_icon' src='../assets/patas.png'></img>
+                  <img className='cards_icon' src='../assets/lei.png'></img>
                   <div className='cards_text'>Lei em favor dos homens com menos de 1,70 de altura</div>
                 </li>
               </ul>
-           
+              <ul className='cards_ul'>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/pessoas.png'></img>
+                  <div className='cards_text'>Lei em favor dos animais silvestresaa aaa aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa</div>
+                </li>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/pata.png'></img>
+                  <div className='cards_text'>Lei em favor dos idosos com mobilidade reduzida apenas pela manha</div>
+                </li>
+                <li className='cards_li'>
+                  <img className='cards_icon' src='../assets/pessoas.png'></img>
+                  <div className='cards_text'>Lei em favor dos homens com menos de 1,70 de altura</div>
+                </li>
+              </ul>
+
+            <button className='cards_btn'>Mais</button>
            </div>
            
         </div>
