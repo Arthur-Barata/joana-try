@@ -68,6 +68,43 @@ video{
 }
 .input_section{
   display: flex;
+  flex-direction:column;
   background-image: url(../public/assets/back2.jpg);
+  align-items: center;
+}
+
+
+
+.form{
+  width:80%;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.form input {
+  box-sizing: border-box;
+  width: 100%;
+  height:2rem;
+  margin-bottom: 2rem;
+
+}
+#input_name{
+  box-sizing: border-box;
+  width: 100%;
+  height:2rem;
+  margin-bottom: 2rem;
+}
+
+#input_zap{
+  width: 100%;
+  height:2rem;
+  margin-bottom: 2rem;
+}
+#input_zap input{
+  width: 100%;
+  height:2rem;
+  box-sizing: border-box;
+  
+
 }
 

@@ -2,18 +2,19 @@ import React from 'react'
 
 function Header(){
     function scrollTo(event){
-    if(event.target.value==1){
-      var element = document.getElementsByClassName("apresentation")[0];
+    var element = document.getElementsByClassName("apresentation")[0];
+    if(event.target.value===1){
+      element = document.getElementsByClassName("apresentation")[0];
       element.scrollIntoView({behavior: "smooth"});
       console.log(event.target.value)
     }
-    if(event.target.value==2){
-      var element = document.getElementsByClassName("projects")[0];
+    if(event.target.value===2){
+      element = document.getElementsByClassName("projects")[0];
       element.scrollIntoView({behavior: "smooth"});
       console.log(event.target.value)
     }
-    if(event.target.value==3){
-      var element = document.getElementsByClassName("input_section")[0];
+    if(event.target.value===3){
+      element = document.getElementsByClassName("input_section")[0];
       element.scrollIntoView({behavior: "smooth"});
       console.log(event.target.value)
     }
