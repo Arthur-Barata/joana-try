@@ -5,7 +5,7 @@ import InputMask from 'react-input-mask';
 function Form(){
   
 
-  const[input,setInput]=useState(<input id='name' type='text' name='input_name' placeholder='WhatsApp'></input>)
+  const[input,setInput]=useState(<input id='WhatsApp' type='text' name='input_name' placeholder='WhatsApp'></input>)
   const[val,setVal]=useState('')
   const[cidades,setCidades]=useState(['MANAUS','PARINTIS', 'ITACOATIARA','ALVARAES',
   "AMATURA",
@@ -86,17 +86,19 @@ function Form(){
            Abrace a esperança você também!</p>
       </div>
       <form className='form' >
-        <input id='input_name' type='text' name='input_name' placeholder='Nome'></input>
+      <input id='input_name' type='text' name='input_name' placeholder='Nome'></input>
       <div id='input_zap' onFocus={change} > 
         {input}
       </div>
-      <input type='email' name='email' placeholder='E-mail' autoComplete='on'></input>
+      <input className='mail' type='email' name='email' placeholder='E-mail' autoComplete='on'></input>
       <select>
         {cidades.map((cid)=>{
          return <option key={cid} value={cid}>{cid}</option>
         })}
       
       </select>
+
+      <input className='sub' type='submit' value='ENVIAR'></input>
       </form>
     </section>)
 }  
