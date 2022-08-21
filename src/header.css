@@ -3,7 +3,9 @@ header{
     justify-content: space-between;
     height:8vh;
     align-items: center;
-    background-image: url(/public/assets/back2.jpg);
+    background-image: url(/public/assets/pattern_opaco.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
    
    
   }
