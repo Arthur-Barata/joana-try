@@ -60,6 +60,10 @@ Os animais me trouxeram para a pol√≠tica e o cuidado com as pessoas, sem distin√
       <div className='news_content'>
         <h2>aaaaaaaaaaaaaaaa</h2>
         <div>
+        <iframe width="100%" height="30%" src="https://www.youtube.com/embed/WJ7XqvoWbVc"
+         title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
           
         </div>
       </div>
