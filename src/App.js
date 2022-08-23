@@ -55,7 +55,15 @@ Os animais me trouxeram para a pol√≠tica e o cuidado com as pessoas, sem distin√
     <FirstImg></FirstImg>
     <Apresentation></Apresentation>
     <Projects></Projects>
-      <Form></Form>
+    <Form></Form>
+    <section className='news'>
+      <div className='news_content'>
+        <h2>aaaaaaaaaaaaaaaa</h2>
+        <div>
+          
+        </div>
+      </div>
+    </section>
     
   </div>
  
