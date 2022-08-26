@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Projects from './Projects.js';
 import Form from './Form.js'
+
 AOS.init()
 
 function App() {
@@ -55,19 +56,55 @@ Os animais me trouxeram para a pol√≠tica e o cuidado com as pessoas, sem distin√
     <FirstImg></FirstImg>
     <Apresentation></Apresentation>
     <Projects></Projects>
-    <Form></Form>
-    <section className='news'>
-      <div className='news_content'>
-        <h2>aaaaaaaaaaaaaaaa</h2>
-        <div>
-        <iframe width="100%" height="30%" src="https://www.youtube.com/embed/WJ7XqvoWbVc"
-         title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
-          
+    <section className='acompanhe'>
+      <div className='acompanhe_content'>
+        
+        <h2>ACOMPANHE</h2>
+        <div className='acompanhe_redes'>
+          <ul>
+            <li> 
+              <img src='../assets/instagram.png'></img>
+              <div className='acompanhe_cards_text' >
+                 Instagram
+                <div className='acompanhe_texticulo'>Seguir</div>
+              </div>
+            </li>
+            <li><img src='../assets/facebook.png'></img>
+            <div className='acompanhe_cards_text' >
+              Facebook
+              <div className='acompanhe_texticulo'>Seguir</div>
+            </div>
+            </li>
+            <li><img src='../assets/telegram.png'></img>
+            <div className='acompanhe_cards_text' >
+              Telegram
+              <div className='acompanhe_texticulo'>Seguir</div>
+            </div>
+            </li>
+          </ul>
+          <ul>
+          <li> 
+              <img src='../assets/tik-tok.png'></img>
+              <div className='acompanhe_cards_text' >
+                 Tik Tok
+                <div className='acompanhe_texticulo'>Seguir</div>
+              </div>
+            </li>
+            <li><img src='../assets/twitter.png'></img>
+              <div className='acompanhe_cards_text' >
+              Twitter
+              <div className='acompanhe_texticulo'>Seguir</div>
+            </div>
+            </li>
+
+          </ul>
         </div>
       </div>
+    
+
     </section>
+    <Form></Form>
+    
     
   </div>
  

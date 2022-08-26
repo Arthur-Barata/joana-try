@@ -2,6 +2,7 @@
 @import "header.css";
 @import 'apresentation.css';
 @import 'projects.css';
+@import 'input.css';
 
 #root{
   display:none;
@@ -28,104 +29,77 @@ body{
  
 }
 
-.carousel_videos{
-  width:100%;
+.acompanhe{
+  width: 100%; 
+  background-image: url(../public/assets/pattern_opaco.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-video{
-  width:100%;
-}
-
-.p_projects{
-  color:white;
-}
-
-
-
-
-
-.input_title{
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  margin-top: 1rem;
-  
-}
-.input_section h2{
+.acompanhe_content{
+  width: 90%;
   margin-top: 0;
   color:rgba(23,61,122,255);
-  margin-bottom: 0;
-
 }
-.input_title h4{
-  margin-top: 0;
-  color: rgb(120,120,120);
-
-}
-.input_title p{
-  text-align: left;
-  color: rgb(80,80,80);
-  font-size: 120%;
-}
-.input_section{
-  display: flex;
-  flex-direction:column;
-  background-image: url(../public/assets/back2.jpg);
-  align-items: center;
-}
-
-
-
-.form{
-  width:80%;
-  display: flex;
- flex-direction: column;
- align-items: center;
-}
-.form input {
-  box-sizing: border-box;
- 
-  height:3rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-
-}
-#input_name{
-  box-sizing: border-box;
-  width: 100%;
-  height:3rem;
-  margin-bottom: 2rem;
- 
-}
-
-#input_zap{
-  width: 100%;
-  height:3rem;
-  margin-bottom: 2rem;
-}
-#input_zap input{
-  width: 100%;
-  height:3rem;
-  box-sizing: border-box;
-  
-
-}
-.mail{
-  width:100%;
-}
-.sub{
-  color: white;
+.acompanhe_content h2{
+  color: #f8bd3a;
   font-size: 110%;
-  width: 50%;
-  background-color: rgba(23,61,122,255);
+  background-color:#1859a9;
+  text-align: center;
+  border-radius: 0.3rem;
 }
-.sub:hover{
-  background-color: rgba(73,175,232,255);
-  cursor: pointer;
+.acompanhe_content>div>ul{
+  font-weight: 500;
+  padding-left: 0;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  
+  align-items:flex-start;
+  
 }
-select{
-  width: 50%;
-  height:2rem;
+.acompanhe_redes{
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+.acompanhe_content>div>ul>li{
   box-sizing: border-box;
-  margin-bottom: 2rem;
+  text-align:left;
+  font-size: 110%;
+  padding:1rem;
+  min-width: 100%;
+  width:fit-content;
+  color:rgba(23,61,122,255);
+  list-style: none;
+  border-radius: 0.3rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(90,90,90,0.5);
+  display: flex;
+  margin-top: 1rem;
+ 
 }
+.acompanhe_content>div>ul>li>img{
+  
+  width: 3rem;
+  height:3rem;
+}
+.acompanhe_cards_text{
+  margin-left: 0.5rem;
+  align-self: center;
+}
+.acompanhe_texticulo{
+  font-size: 90%;
+  color:rgba(90,90,90,0.55);
+}
+
+
+
+
 
