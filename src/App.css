@@ -46,6 +46,7 @@ body{
   color:rgba(23,61,122,255);
 }
 .acompanhe_content h2{
+  padding: 1rem;
   color: #f8bd3a;
   font-size: 110%;
   background-color:#1859a9;
